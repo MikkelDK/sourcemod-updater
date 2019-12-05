@@ -1,4 +1,4 @@
-Sourcemod updater
+SM-Updater (SourceMod)
 =================
 
 Updates or installs the latest Sourcemod stable release or snapshots.
@@ -17,7 +17,7 @@ Updates or installs the latest Sourcemod stable release or snapshots.
 
 ```shell
 # Change to any directory where you want to install it first
-aptitude install lynx wget findutils rsync
+apt-get install lynx wget findutils
 wget https://github.com/bcserv/sourcemod-updater/archive/master.zip -O sourcemod-updater.zip
 unzip sourcemod-updater.zip
 mv sourcemod-updater-master sourcemod-updater
