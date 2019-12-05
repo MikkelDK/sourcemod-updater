@@ -18,7 +18,7 @@ Updates or installs the latest Sourcemod stable release or snapshots.
 ```shell
 # Change to any directory where you want to install it first
 apt-get install lynx wget findutils
-wget https://github.com/bcserv/sourcemod-updater/archive/master.zip -O sourcemod-updater.zip
+wget https://github.com/MikkelDK/SM-Updater/archive/master.zip -O sourcemod-updater.zip
 unzip sourcemod-updater.zip
 mv sourcemod-updater-master sourcemod-updater
 cd sourcemod-updater
@@ -99,6 +99,6 @@ full replace means also deleting files that are not in the update package
 SNAPSHOT_STABLE_MIRROR="http://www.sourcemod.net/smdrop/1.10/"
 SNAPSHOT_STABLE_SEARCHPATTER="http:.*sourcemod-.*-linux.*gz"
 
-SNAPSHOT_DEV_MIRROR="http://www.sourcemod.net/smdrop/1.10/"
+SNAPSHOT_DEV_MIRROR="http://www.sourcemod.net/smdrop/1.11/"
 SNAPSHOT_DEV_SEARCHPATTER="http:.*sourcemod-.*-linux.*gz"
 ```
