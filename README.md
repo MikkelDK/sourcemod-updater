@@ -17,10 +17,8 @@ Updates or installs the latest Sourcemod stable release or snapshots.
 
 ```shell
 # Change to any directory where you want to install it first
-apt-get install lynx wget findutils
-wget https://github.com/MikkelDK/SM-Updater/archive/master.zip -O sourcemod-updater.zip
-unzip sourcemod-updater.zip
-mv sourcemod-updater-master sourcemod-updater
+apt-get install lynx wget findutils rsync git
+git clone https://github.com/MikkelDK/SM-Updater.git
 cd sourcemod-updater
 chmod u+x update.sh
 chmod u+w packagecache
