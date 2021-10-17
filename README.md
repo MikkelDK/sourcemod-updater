@@ -20,9 +20,7 @@ Updates or installs the latest Sourcemod stable release or snapshots.
 apt-get install lynx wget findutils rsync git
 git clone https://github.com/MikkelDK/sourcemod-updater.git
 cd sourcemod-updater
-chmod u+x update.sh
-chmod u+w packagecache
-./update.sh
+chmod u+x update.sh && chmod u+w packagecache
 ```
 
 # Usage
