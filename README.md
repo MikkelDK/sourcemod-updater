@@ -1,4 +1,4 @@
-SourceMod-Updater
+SourceMod Updater
 =================
 
 Updates or installs the latest Sourcemod stable release or snapshots.
@@ -17,8 +17,8 @@ Updates or installs the latest Sourcemod stable release or snapshots.
 
 ```shell
 # Change to any directory where you want to install it first
-apt-get install lynx wget findutils rsync git
-git clone https://github.com/MikkelDK/sourcemod-updater.git
+apt-get install lynx wget findutils rsync git -y
+git clone https://github.com/mrc4tt/sourcemod-updater.git
 cd sourcemod-updater
 chmod u+x update.sh && chmod u+w packagecache
 ```
