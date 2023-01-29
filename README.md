@@ -92,9 +92,9 @@ full replace means also deleting files that are not in the update package
 ```bash
 # The source code of this page will be searched for the latest sourcemod package
 # We assume that the last one is the latest
-SNAPSHOT_STABLE_MIRROR="http://www.sourcemod.net/smdrop/1.10/"
+SNAPSHOT_STABLE_MIRROR="http://www.sourcemod.net/smdrop/1.11/"
 SNAPSHOT_STABLE_SEARCHPATTER="http:.*sourcemod-.*-linux.*gz"
 
-SNAPSHOT_DEV_MIRROR="http://www.sourcemod.net/smdrop/1.11/"
+SNAPSHOT_DEV_MIRROR="http://www.sourcemod.net/smdrop/1.12/"
 SNAPSHOT_DEV_SEARCHPATTER="http:.*sourcemod-.*-linux.*gz"
 ```
